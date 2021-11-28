@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/settingsMenu"
+        android:title="Settings">
+    </item>
+    <item android:id="@+id/reportBug"
+        android:title="Report bug">
+    </item>
+    <item android:id="@+id/logout"
+        android:title="Logout">
+    </item>
+</menu>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".noteDetails">
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:id="@+id/EditNote"
+        android:src="@drawable/edit"
+        app:maxImageSize="20dp"
+        app:backgroundTint="@color/white"
+        android:onClick="GoToEditNote">
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolBarForNoteDetails"
+        android:gravity="center"
+        android:background="#DFDFDF">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:background="@null"
+            android:textSize="15dp"
+            android:gravity="center_vertical"
+            android:hint="This is the note title"
+            android:id="@+id/savedNotesTitleinDetail">
+        </TextView>
+    </androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:paddingLeft="1dp"
+        android:gravity="top|left"
+        android:background="@null"
+        android:textColor="@color/black"
+        android:hint="This is the note content"
+        android:layout_below="@id/toolBarForNoteDetails"
+        android:layout_margin="10dp"
+        android:id="@+id/SavedNotesContentInDetail">
+    </TextView>
+
+
+
+</RelativeLayout>

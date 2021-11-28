@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "891879694891",
+    "project_id": "cloudpad-470d2",
+    "storage_bucket": "cloudpad-470d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891879694891:android:600d3a5dd2cc869c09006e",
+        "android_client_info": {
+          "package_name": "com.kyotobytes.cloudpad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891879694891-91dm13eq98dcc0g3kus6ngar92j44dsa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRahcY5behJ9ghZR9A6BGXg5E17y_ksmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "891879694891-91dm13eq98dcc0g3kus6ngar92j44dsa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

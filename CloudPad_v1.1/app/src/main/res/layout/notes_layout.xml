@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        app:cardCornerRadius="7dp"
+        app:cardMaxElevation="5dp"
+        android:id="@+id/notecard">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/note"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noteTitle"
+                    android:padding="10dp"
+                    android:background="#E6E6E6"
+                    android:textStyle="italic"
+                    android:text="This is a note title"
+                    android:layout_weight="1">
+                </TextView>
+                <ImageView
+                    android:background="#E6E6E6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/menupopupbutton"
+                    android:layout_weight="0"
+                    android:src="@drawable/ic_baseline_more_vert_24">
+                </ImageView>
+            </LinearLayout>
+            <TextView
+                android:background="#F8F8F8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/noteContent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="This is the note content">
+            </TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
